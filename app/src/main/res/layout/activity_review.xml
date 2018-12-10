@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:wx="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.example.a13635.myapplication.view.CustomTitleBar
+        android:id="@+id/title_bar1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        wx:left_button_text="左边"
+        wx:right_button_drawable="@mipmap/ic_launcher"
+        wx:title_background_color="@color/colorAccent"
+        wx:title_text="标题1"/>
+
+    <com.example.a13635.myapplication.view.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        wx:left_button_text="左边"
+        wx:right_button_visible="false"
+        wx:title_background_color="@color/blue"
+        wx:title_text="标题2"/>
+
+    <com.example.a13635.myapplication.view.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        wx:right_button_text="右边"
+        wx:left_button_text="左边"
+        wx:title_background_color="@color/green"
+        wx:title_text="标题3"/>
+
+    <com.example.a13635.myapplication.view.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        wx:left_button_text="左边"
+        wx:right_button_drawable="@mipmap/ic_launcher"
+        wx:title_background_color="@color/colorAccent"
+        wx:title_text="标题4"/>
+
+    <com.example.a13635.myapplication.view.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        wx:left_button_text="左边"
+        wx:left_button_drawable="@mipmap/ic_launcher"
+        wx:right_button_drawable="@mipmap/ic_launcher"
+        wx:title_background_color="@color/colorAccent"
+        wx:title_text="标题5"/>
+
+    <com.example.a13635.myapplication.view.TagsLayout
+        android:id="@+id/image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        wx:tagHorizontalSpace="10dp"
+        wx:tagVerticalSpace="10dp"/>
+
+</LinearLayout>
